@@ -100,7 +100,7 @@
                                 <rect key="frame" x="0.0" y="44" width="250" height="406"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DVO-Ue-bAe" userLabel="Blue">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DVO-Ue-bAe" userLabel="Blue">
                                 <rect key="frame" x="250" y="44" width="125" height="406"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -111,12 +111,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="DVO-Ue-bAe" firstAttribute="height" secondItem="Aur-aK-0wt" secondAttribute="height" multiplier="1:2" id="303-aR-NBI"/>
                             <constraint firstItem="eUL-Fa-pMr" firstAttribute="top" secondItem="Tx2-hL-t52" secondAttribute="bottom" id="55v-l4-g0X"/>
                             <constraint firstItem="8DT-hH-SiA" firstAttribute="leading" secondItem="Aur-aK-0wt" secondAttribute="leading" id="6CH-WA-IyX"/>
                             <constraint firstAttribute="trailing" secondItem="8DT-hH-SiA" secondAttribute="trailing" id="BTt-H4-hUX"/>
                             <constraint firstAttribute="trailing" secondItem="DVO-Ue-bAe" secondAttribute="trailing" id="E63-Ly-72n"/>
                             <constraint firstItem="eUL-Fa-pMr" firstAttribute="width" secondItem="Aur-aK-0wt" secondAttribute="width" multiplier="2:3" id="Jyz-X7-7wH"/>
                             <constraint firstItem="WGH-8z-A19" firstAttribute="top" secondItem="8DT-hH-SiA" secondAttribute="bottom" constant="-34" id="MgB-i8-TiZ"/>
+                            <constraint firstItem="8DT-hH-SiA" firstAttribute="width" secondItem="Aur-aK-0wt" secondAttribute="width" id="YR9-nv-YuF"/>
                             <constraint firstItem="DVO-Ue-bAe" firstAttribute="top" secondItem="Tx2-hL-t52" secondAttribute="bottom" id="arr-ZH-SZx"/>
                             <constraint firstItem="eUL-Fa-pMr" firstAttribute="leading" secondItem="Aur-aK-0wt" secondAttribute="leading" id="atn-6w-vbi"/>
                             <constraint firstItem="DVO-Ue-bAe" firstAttribute="width" secondItem="Aur-aK-0wt" secondAttribute="width" multiplier="1:3" id="h71-k5-T6c"/>
